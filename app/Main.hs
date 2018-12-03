@@ -48,7 +48,9 @@ app = do
   
   ^ Currently unable to use curl to check if post method works as curl is native to Linux and I'm on Windows.
   Our Api data type represents the apps configuration. 
-  ApiActions type is similar and represents actions in our application, which are functions performed by route matches (get). Later we'll use it to explicitly declare types for use in actions.
+  ApiActions type is similar and represents actions in our application, 
+  which are functions performed by route matches (get). 
+  Later we'll use it to explicitly declare types for use in actions.
   -}
 
 
